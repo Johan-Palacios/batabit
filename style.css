@@ -419,3 +419,100 @@ main {
   line-height: 1.8rem;
   color: #757575;
 }
+
+.plans-container--card {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plan-level {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  padding: 6px;
+  background-color: var(--bicoint-orange);
+  border-radius: 8px;
+  color: var(--just-white);
+}
+.recomended {
+  background-color: var(--bicoint-orange);
+}
+
+.basic {
+  background-color: #1a9af7;
+}
+
+.limited {
+  background-color: var(--warm-black);
+}
+
+.plan-card--title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.plan-card--price {
+  padding: 5px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 6.3rem;
+  color: var(--black);
+}
+
+.plan-card--price span {
+  display: inline-block;
+  line-height: normal;
+  padding-top: 8px;
+  padding-right: 4px;
+  vertical-align: text-top;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.plan-card--saving {
+  font-size: 1.2rem;
+  color: #757575;
+}
+.plan-card--card-to-action {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  font-family: DM Sans, sans-serif;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  background-color: var(--off-white);
+  color: var(--black);
+}
+.recomended__button {
+  border: 2px solid var(--bicoint-orange);
+}
+.basic__button {
+  border: 2px solid var(--secondary-blue);
+}
+.limited__button {
+  border: 2px solid var(--warm-black);
+}
+
+.plan-card--card-to-action span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets/icons/arrow-right-orange.svg");
+  vertical-align: text-bottom;
+}
