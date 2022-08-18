@@ -163,8 +163,7 @@ main {
   min-width: 235px;
   max-width: 500px;
   height: 360px;
-  margin: 0 auto;
-
+  margin: 0 5px;
   font-family: "Inter", sans-serif;
 }
 
