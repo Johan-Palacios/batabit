@@ -553,7 +553,6 @@ footer section {
 
 footer .footer__left ul {
   font-size: 1.4rem;
-
   font-weight: 500;
   line-height: 1.8rem;
   list-style: none;
@@ -566,4 +565,9 @@ footer .footer__left li {
 footer .footer__left a {
   text-decoration: none;
   color: var(--just-white);
+}
+
+footer .footer__right figure img {
+  width: 64px;
+  height: 50px;
 }
